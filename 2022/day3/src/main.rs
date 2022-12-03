@@ -74,5 +74,5 @@ fn main() {
         .expect("File not found");
 
     println!("Day3. Task1: {}", task_1(&content));
-    println!("Day3. Task1: {}", task_2(&content));
+    println!("Day3. Task2: {}", task_2(&content));
 }
