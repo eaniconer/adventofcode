@@ -23,7 +23,7 @@ fn rucksack_prioirty((lhs, rhs): (&str, &str)) -> i32 {
     let hs: HashSet<char> = lhs.chars().collect();
     let found = rhs.chars()
         .find(|ch| hs.contains(ch))
-        .expect("Guarantee vilation: lhs and rhs don't containt similar items");
+        .expect("Warranty violated: lhs and rhs don't containt similar items");
     return score(found);
 }
 
